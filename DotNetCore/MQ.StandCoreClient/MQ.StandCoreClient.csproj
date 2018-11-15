@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <Version>8201.0.0.3</Version>
+    <Authors>ftf</Authors>
+    <Company>fujica</Company>
+    <Description>MQ消息中间件</Description>
+    <AssemblyVersion>8201.0.0.3</AssemblyVersion>
+    <FileVersion>8201.0.0.3</FileVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
+    <PackageReference Include="SuperSocket.ClientEngine" Version="0.10.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MQ.StandCommon\MQ.StandCommon.csproj" />
+  </ItemGroup>
+
+</Project>

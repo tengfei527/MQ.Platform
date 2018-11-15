@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>8201.0.0.1</Version>
+    <Authors>ftf</Authors>
+    <Company>fujica</Company>
+    <Description>消息组件公共模块</Description>
+    <AssemblyVersion>8201.0.0.0</AssemblyVersion>
+    <FileVersion>8201.0.0.0</FileVersion>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DocumentationFile>bin\Release\netstandard2.0\MQ.StandCommon.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CSuperSocket.Common" Version="2.1.2.1" />
+    <PackageReference Include="CSuperSocket.Facility" Version="2.1.2.1" />
+    <PackageReference Include="CSuperSocket.SocketBase" Version="2.1.2.1" />
+    <PackageReference Include="SuperSocket.ProtoBase" Version="1.7.0.17" />
+  </ItemGroup>
+
+</Project>
