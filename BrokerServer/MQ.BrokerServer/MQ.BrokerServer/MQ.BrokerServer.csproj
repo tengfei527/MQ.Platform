@@ -10,7 +10,7 @@
     <PackageReference Include="CSuperSocket.Facility" Version="2.1.2.1" />
     <PackageReference Include="CSuperSocket.SocketBase" Version="2.1.2.1" />
     <PackageReference Include="CSuperSocket.SocketEngine" Version="2.1.2.1" />
-    <PackageReference Include="log4net" Version="2.0.8" />
+    <PackageReference Include="log4net" Version="2.0.10" />
     <PackageReference Include="MQ.StandCommon" Version="8201.0.0.1" />
     <PackageReference Include="MQ.StandCoreServer" Version="8201.0.0.1" />
     <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
