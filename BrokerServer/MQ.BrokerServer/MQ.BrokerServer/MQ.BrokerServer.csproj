@@ -13,7 +13,7 @@
     <PackageReference Include="log4net" Version="2.0.8" />
     <PackageReference Include="MQ.StandCommon" Version="8201.0.0.1" />
     <PackageReference Include="MQ.StandCoreServer" Version="8201.0.0.1" />
-    <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.2" />
     <PackageReference Include="SuperSocket.ProtoBase" Version="1.7.0.17" />
   </ItemGroup>
 
